@@ -115,6 +115,9 @@ body {
     rgba(217, 217, 217, 0%) 100%
   );
 }
+.positoin-3{
+right: 5%;
+}
 /* responsive */
 @media only screen and (max-width: 992px) {
     .p-xx{
@@ -124,6 +127,9 @@ body {
 @media only screen and (max-width: 821px) {
   .text-menu{
     font-size: 14px;
+  }
+  .text-xl{
+    font-size: 3.5rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -149,6 +155,9 @@ body {
   }
   .d-xs-none{
     display: none;
+  }
+  .mt-xls{
+    margin: 2rem;
   }
 }
 @media only screen and (max-width: 387px) {
