@@ -118,6 +118,23 @@ body {
 .positoin-3{
 right: 5%;
 }
+.top-30{
+  top: -10%;
+}
+.text-l{
+font-size: 5.5rem;
+}
+.top-20{
+  top: 20%;
+}
+.text-color{
+  color: rgba(153, 153, 153, 100%);
+}
+.rest-input{
+  outline: none;
+  border: none;
+  background: transparent;
+}
 /* responsive */
 @media only screen and (max-width: 992px) {
     .p-xx{
