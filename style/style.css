@@ -1,3 +1,35 @@
+@font-face {
+  font-family: Sara;
+  src: url(../fonts/Sara.otf);
+}
+@font-face {
+  font-family: Vasir;
+  src: url(../fonts/Vazir-Bold.ttf);
+}
+@font-face {
+  font-family: Kamran;
+  src: url(../fonts/B\ Kamran\ Bold_0.ttf);
+}
+
+
+body {
+  font-family: Sara;
+}
+::-webkit-scrollbar-thumb {
+  
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(94, 186, 147);
+}
+::-webkit-scrollbar {
+  width: 17px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+
 li {
   list-style: none;
 }
@@ -65,7 +97,7 @@ body {
 }
 .social-box {
   width: 10rem;
-  background-image: url(../image/Vector.svg);
+  background-image: url(../image/Social-Networks/Vector.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,9 +150,6 @@ body {
 .positoin-3{
 right: 5%;
 }
-.top-30{
-  top: -10%;
-}
 .text-l{
 font-size: 5.5rem;
 }
@@ -134,6 +163,9 @@ font-size: 5.5rem;
   outline: none;
   border: none;
   background: transparent;
+}
+.w-input{
+  width: 30%;
 }
 /* responsive */
 @media only screen and (max-width: 992px) {
@@ -176,6 +208,9 @@ font-size: 5.5rem;
   .mt-xls{
     margin: 2rem;
   }
+  .me-xs-s{
+    margin-right: 0.5rem !important;
+  }
 }
 @media only screen and (max-width: 387px) {
   .image-responsive{
@@ -189,5 +224,8 @@ font-size: 5.5rem;
   }
   .mexs{
     margin-right: 0.8rem !important;
+  }
+  .fs-xs-s{
+    font-size: 0.75rem !important;
   }
 }
